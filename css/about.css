@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+}
+.title_noobbit_navbar{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pic_noobbit_navbar{
+    height: 25px;
+}
+.nb_s_input{
+    margin-left: 100px;
+}
+.nb_s_search_button{
+    display: inline;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 1990px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav .title_noobbit_navbar {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav .navbar_search {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+  }
+.recents_title{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.projects_title{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.recents{
+    display: inline;
+}
+.terminal{
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #ffffff;
+    width: 400px;
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+.terminal_title{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.terminal_des{
+    margin-top: 30px;
+}
+.terminal_go{
+    font-size: 23px;
+    margin-left: 250px;
+}
+.sep_1{
+    display: inline;
+}
+.notepad{
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #ffffff;
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+.notepad_title{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.notepad_des{
+    margin-top: 20px;
+}
+.notepad_go{
+    font-size: 23px;
+    margin-left: 250px;
+}
+.recents_main{
+    display: inline-flex;
+}
+.projects_main{
+    display: inline-flex;
+}
+.about_contact_title{
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.about_git_w{
+    margin-top: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    height: 50px;
+    width: 250px;
+    transition: font-size 230ms;
+}
+.about_git_w_i{
+    height: 30px;
+}

@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.title_noobbit_navbar{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.pic_noobbit_navbar{
+    height: 25px;
+}
+.nb_s_input{
+    margin-left: 100px;
+}
+.nb_s_search_button{
+    display: inline;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 1590px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav .title_noobbit_navbar {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .topnav .navbar_search {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    text-decoration: none;
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+  }
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.recents{
+    display: inline;
+}
+.mainimg{
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #ffffff;
+    width: 1260px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+.mainimg_title{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainimg_subtitle{
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainimg_super_subtitle{
+    font-size: 22.5px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainimg_dwn_inst{
+    margin-top: 20px;
+}
+.mainimg_inst{
+    margin-top: 70px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+.mainimg_dwn_holder{
+    display: inline-flex;
+}
+.terminal_des{
+    margin-top: 20px;
+}
+.terminal_go{
+    font-size: 23px;
+    margin-left: 250px;
+}
+.recents_main{
+    display: inline-flex;
+}
+.mainimgdownload{
+    display: block;
+}
+.installer{
+    background-color: #333;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    margin-left: 20px;
+    transition: font-size 230ms;
+}
+.installer:hover{
+    font-size: 23px;
+}
+.finstaller{
+    margin-top: 30px;
+    background-color: #333;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    height: 40px;
+    width: 300px;
+    transition: font-size 230ms;
+}
+.finstaller:hover{
+    font-size: 23px;
+}

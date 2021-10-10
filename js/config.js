@@ -1,0 +1,1 @@
+search_input = document.getElementsByClassName('nb_s_input')

@@ -107,13 +107,17 @@ a:hover{
 .recents{
     display: inline;
 }
+.main{
+    display: flex;
+    justify-content: center;
+}
 .mainimg{
     margin: 1rem;
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background: #ffffff;
-    width: 1260px;
+    width: 91vw;
     font-family: 'Roboto', sans-serif;
     margin-top: 25px;
 }

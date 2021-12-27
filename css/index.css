@@ -1,13 +1,43 @@
 body{
     margin: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+
+html{
+    scrollbar-color: rgb(94, 94, 94) #333;
+    scrollbar-width: normal;
+}
+
+html::-webkit-scrollbar{
+    width: auto;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(94, 94, 94);
+}
+
+html::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(105, 105, 105);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: #333;
+}
+
 .title_noobbit_navbar{
     font-size: 20px;
     margin-left: 10px;
     margin-right: 10px;
 }
 .pic_noobbit_navbar{
-    height: 25px;
+    height: 40px;
+    padding-right: 10px;
+}
+.text_noobbit_navbar{
+    padding: 4%;
+    padding-right: 10px;
+    cursor: default;
 }
 .nb_s_input{
     margin-left: 100px;
@@ -19,7 +49,7 @@ body{
 .topnav {
     background-color: #333;
     overflow: hidden;
-    width: 1600px;
+    top: 100%;
   }
   
   /* Style the links inside the navigation bar */
@@ -27,19 +57,20 @@ body{
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 25px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .topnav .title_noobbit_navbar {
+    display: flex;
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 7px 8px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 27px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -137,8 +168,31 @@ a:hover{
     margin-left: 250px;
 }
 .recents_main{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
 }
 .projects_main{
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+}
+.smbox{
+    display: flex;
+    justify-content: center;
+}
+.sm{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #ffffff;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+    transition: padding, 300ms;
+}
+.sm:hover{
+    padding: 1.25rem;
 }

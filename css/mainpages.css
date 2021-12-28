@@ -36,6 +36,8 @@ html::-webkit-scrollbar-track{
     padding: 4%;
     padding-right: 10px;
     cursor: default;
+    font-weight: bold;
+    align-items: center;
 }
 .nb_s_input{
     margin-left: 100px;
